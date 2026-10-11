@@ -1,4 +1,4 @@
---Question 02: What are the shortest and longest dive durations_
+--Question 02: What are the shortest and longest dive durations? 
 SELECT
     MIN(DIVE_DUR) AS shortest_dive_seconds,
     ROUND(MIN(DIVE_DUR)/60.0,2) AS shortest_dive_minutes,
